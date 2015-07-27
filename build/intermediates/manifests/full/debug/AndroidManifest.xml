@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="work.anmol.com.meracampus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Mera Campus"
+        android:logo="@drawable/logo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="work.anmol.com.meracampus.BootScreen"
+            android:label="Mera Campus"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.LoginActivity"
+            android:label="Login Details"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.work.anmol.meracampus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.RegistrationActivity"
+            android:label="Register Here"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.ChatActivity"
+            android:label="Chats"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.SecondaryActivities.ChatViewActivity"
+            android:label="Chat"
+            android:parentActivityName="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContentActivities.NavDrawerActivities.ChatActivity" />
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.AboutUsActivity"
+            android:label="About MSIT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.AboutUsGuestActivity"
+            android:label="About MSIT"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGuest" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.TeacherReviewActivity"
+            android:label="Teacher Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.SecondaryActivities.TeacherViewActivity"
+            android:label="Teacher Reviews"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.SecondaryActivities.AddNotesActivity"
+            android:label="Add Notes Here"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.NotesActivity"
+            android:label="Notes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.SecondaryActivities.NotesViewActivtiy"
+            android:label="View Notes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.NewsAndEventsActivity"
+            android:label="News and Events"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.SocietiesActivity"
+            android:label="Societies and Amnesties"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="work.anmol.com.meracampus.ContentActivities.NavDrawerActivities.AssesmentActivity"
+            android:label="Self Assesment Tools"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

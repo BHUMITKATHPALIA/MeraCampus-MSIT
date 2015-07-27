@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/abc"
+                android:orientation="vertical"
+                tools:context="work.anmol.com.meracampus.ContentActivities.SecondaryActivities.ChatViewActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <EditText
+            android:id="@+id/etCurrentThread"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="4.5"
+            android:hint="@string/type_message"/>
+
+        <Button
+            android:id="@+id/bsend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:background="#b5190b7e"
+            android:text="@string/send"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvMessageChatView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Rachit/Desktop/Android/Applications/MeraCampusAlpha_v2/app/src/main/res/layout/activity_chat_view.xml -->

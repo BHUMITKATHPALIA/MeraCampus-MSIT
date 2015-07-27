@@ -1,0 +1,109 @@
+<RelativeLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:textAlignment="gravity"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvLogin"
+        android:layout_marginTop="30dp"
+
+
+        android:gravity="center_horizontal"
+        android:hint="@string/username"
+        android:singleLine="true"
+        android:textColor="#ff0d1010"
+        android:textColorHint="#750d1010"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUserName"
+        android:gravity="center_horizontal"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#ff0e0e0e"
+        android:textColorHint="#750d1010"/>
+
+    <ImageView
+        android:id="@+id/ivRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_state"
+        android:contentDescription="@string/register"/>
+
+    <ImageView
+        android:id="@+id/ivLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivRegister"
+        android:layout_alignStart="@+id/ivRegister"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_state"
+        android:contentDescription="@string/login"/>
+
+    <ImageView
+        android:id="@+id/ivFb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/ivRegister"
+        android:layout_alignRight="@+id/ivRegister"
+        android:layout_below="@+id/ivRegister"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/facebook"
+        android:src="@drawable/face"/>
+
+    <ImageView
+        android:id="@+id/ivGoogle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/ivRegister"
+        android:layout_alignStart="@+id/ivRegister"
+        android:layout_alignTop="@+id/ivFb"
+        android:contentDescription="@string/google"
+        android:src="@drawable/google"/>
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/skip_signin"
+        android:textColor="#f9130a3e"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_in"
+        android:textColor="#f9130a3e"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

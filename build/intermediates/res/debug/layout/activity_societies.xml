@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/abc"
+                tools:context=".Socities">
+
+    <ListView
+        android:id="@+id/lvSocity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>
+<!-- From: file:/C:/Users/Rachit/Desktop/Android/Applications/MeraCampusAlpha_v2/app/src/main/res/layout/activity_societies.xml -->

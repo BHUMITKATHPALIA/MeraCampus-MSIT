@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MeraCampus</string>
+    <string name="title_items_detail">Items Detail</string>
+    <string name="title_activity_boot_screen">BootScreen</string>
+    <string name="about_us">This AICTE approved Institute under GGSIP University is ideally located in the Institutional area of Janakpuri, New Delhi. It has a campus spread over eight acres of land with beautiful eco-friendly surroundings.</string>
+    <string name="about_us_2">Maharaja Surajmal was born in 1707 in the erstwhile kingdom of Bharatpur. Surajmal was the most able son of Badan Singh. Badan Singh and his young son Surajmal through unity and integrity brought strength to the kingdom.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registeration">RegistrationActivity</string>
+    <string name="registration">Registration</string>
+    <string name="username">User Name</string>
+    <string name="email">Email ID</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="enroll">Unique Identity Access Key</string>
+    <string name="course">Course</string>
+    <string name="semester">Semester</string>
+    <string name="register">Register</string>
+    <string-array name="semesters">
+        <item name="null">--</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="courses">
+        <item name="null">--</item>
+        <item name="mba">MBA</item>
+        <item name="Btech">B. Tech</item>
+    </string-array>
+    <string name="assess_prompt">Assesment</string>
+    <string-array name="assess_arrays">
+        <item name="go">--Go--</item>
+        <item name="attendance">Attendance</item>
+        <item name="marks">Marks</item>
+        <item name="rank_evaluator">Rank Evaluator</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_teacher_review">TeacherReviewActivity</string>
+    <string name="title_activity_teacher_view">TeacherViewActivity</string>
+    <string name="title_activity_chat_view">ChatViewActivity</string>
+    <string name="title_activity_add_notes">AddNotesActivity</string>
+    <string name="title_activity_view_notes">ViewNotesActivity</string>
+    <string name="title_activity_notes">NotesActivity</string>
+    <string name="title_activity_notes_view_activtiy">NotesViewActivtiy</string>
+    <string name="title_activity_news_and_events">NewsAndEventsActivity</string>
+    <string name="title_activity_societies">SocietiesActivity</string>
+    <string name="title_activity_assesment">AssesmentActivity</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="maharaja_surajmal">Maharaja Surajmal</string>
+
+    <string name="rachit_name">Rachit Goyal</string>
+    <string name="rachit_email">rachit@osahub.com</string>
+    <string name="societies">Societies</string>
+    <string name="name_society">Name of Society</string>
+    <string name="description">Description</string>
+    <string name="go">Go</string>
+    <string name="plus">+</string>
+    <string name="assess_yourself">Assess yourself</string>
+    <string name="self_assessment">Self Assessment</string>
+    <string name="title">Title</string>
+    <string name="subject">Subject</string>
+    <string name="submitted_by">Submitted By</string>
+    <string name="link">Link</string>
+    <string name="submit">Submit</string>
+    <string name="type_message">Type Message</string>
+    <string name="send">Send</string>
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="skip_signin">Don\'t want to Sign in? Click here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="notes_description">Description.\nHi I am Content. There was a long story that things goes like this, once i took engieering and i become an engineer</string>
+    <string name="enrollment_no">Enrollment No.</string>
+    <string name="register_as">Register As:</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="user_profile">User Profile</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="icon">Icon</string>
+    <string name="nav_drawer_item">Item</string>
+    <string name="news_events">News And Events</string>
+    <string name="date">Date</string>
+    <string name="text">Text</string>
+    <string name="message">Message</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="person_name">Person Name</string>
+    <string name="message_date">Message Date</string>
+    <string name="last_message">Last Message</string>
+    <string name="notes">Notes</string>
+    <string name="course_stream_sem_subject">course_stream_sem_subject</string>
+
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hellooo"
+    android:weightSum="9"
+    android:paddingLeft="40dp"
+    android:paddingTop="40dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/registration"
+                android:textSize="35sp"
+                android:id="@+id/tvReg"
+                android:layout_marginTop="60dp"
+                android:textColor="#f901340b"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:id="@+id/etUserName"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:id="@+id/etMail"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="@string/mobile"
+                android:id="@+id/etMob"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enrollment_no"
+                android:id="@+id/etEnroll"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:id="@+id/etPass"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_as"
+                    android:id="@+id/tvRegister"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:paddingRight="20dp"/>
+
+                <RadioGroup
+                    android:orientation="vertical"
+                    android:id="@+id/radioUser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:weightSum="2"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/teacher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/teacher"
+                        android:checked="false"
+                        android:textSize="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"/>
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textColor="#000"
+                        android:text="@string/student"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/bReg"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
